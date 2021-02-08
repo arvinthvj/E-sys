@@ -1,0 +1,77 @@
+.fullscreen {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.toalter {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .toalter {
+    float: right;
+    position: absolute;
+    margin-top: -35px;
+    right: 0;
+    margin-right: 60px;
+  }
+}
+.content {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+}
+.list-group-item:hover {
+  cursor: pointer;
+}
+
+.list-group-item {
+  background-color: rgb(236, 236, 31) !important;
+}
+.navbar-brand {
+  font-size: medium !important;
+}
+.customerName {
+  display: flex;
+  justify-content: space-around;
+}
+.contactPerson {
+  display: flex;
+  justify-content: space-around;
+}
+.billingAddress {
+  display: flex;
+  justify-content: space-around;
+}
+.deliveryAddress {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebar {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .sidebar {
+    flex: 0.2;
+    flex-direction: column;
+    display: block;
+    height: 100vh;
+
+    background-color: rgb(241, 245, 23);
+  }
+}
+.flexFirstHalfContent {
+  margin-top: 1% !important;
+  flex: 1;
+}
+.secondHalf {
+  flex: 1;
+}

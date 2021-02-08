@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./layout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+<div class="wholeContainer">
+    <div class="bootnav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand text-white" href="#">E-SYS BUSINESS MANAGEMENT SOFTWARE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto topnav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Cart</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a class="nav-link text-white" href="#">Shop</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resources
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-white" href="#"></a>
+                            <a class="dropdown-item text-white" href="#"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Omnivic</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white" type="button" href="#" data-toggle="modal" data-target="#myModal">Sign In</a>                  
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-danger text-white" type="button" href="#" data-toggle="modal" data-target="#myModal">Register</a>
+                    </li>
+                </ul>
+            </div>
+    
+                <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+    
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Customer Sign In</h4>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form>
+                            <label class="sr-only" for="usrname">Username</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+    
+    
+                            <label class="sr-only" for="Password">Name</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon2"><i class="fa fa-key"></i></span>
+                                </div>
+                                <input id="Password" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2">
+                            </div>
+                        </form>
+                    </div>
+    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" >Sign In</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+                
+    
+        </nav>
+    </div>
+
+
+    <div class="fullscreen">
+      <div class="sidebar">
+        <ul class="list-group">
+          <li class="list-group-item">Main Menu</li>
+          <li class="list-group-item">Sales Order Entry</li>
+          <li class="list-group-item">Sales Invoice</li>
+          <li class="list-group-item">Purchase Order Entry</li>
+          <li class="list-group-item">GIRN Receipts</li>
+          <li class="list-group-item">Stock Master</li>
+          <li class="list-group-item">Vendor Master</li>
+          <li class="list-group-item">Dealer Master</li>
+          <li class="list-group-item">Reports</li>
+        </ul>
+      </div>
+
+      <div class="content container">
+        
+        <div class="table1">
+            <div class="d-inline p-1 bg-warning text-white toalter md-4">SALES ORDER ENTRY</div>
+           
+            
+
+        
+          <table class="table">
+            <div><h4 class="d-block p-2 bg-primary text-white md-4 text-center">CUSTOMER DETAILS</h4></div>
+            <tbody>
+              <tr class="table-light">
+                <td>
+                  <label for="SalesorderformcustomerName">
+                    Customer Name
+                  </label>
+                </td>
+                <td><strong>name</strong></td>
+                <td><label for="SalesorderformDate">Date</label></td>
+                <td><strong>Date</strong></td>
+              </tr>
+              <tr class="table-light">
+                <td>
+                  <label for="SalesorderformContactPerson">
+                    Contact Number
+                  </label>
+                </td>
+                <td><strong>number</strong></td>
+
+                <td><label for="SalesorderformemailId"> E-mail-ID </label></td>
+                <td><strong>email</strong></td>
+              </tr>
+
+              <tr class="table-light">
+                <td>
+                  <label for="SalesorderformBillingAddress">
+                    Billing Address
+                  </label>
+                </td>
+
+                <td><strong>billing bddress</strong></td>
+
+                <td>
+                    <label for="SalesorderformDeliveryAddress">
+                        Delivery Address
+                      </label>
+                  </td>
+  
+                  <td><strong>delivery address</strong>s</strong></td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table2">
+           
+          <table class="table">
+            <h4 class="d-block p-2 bg-primary text-white md-4 text-center">SALES ORDER FORM</h4>
+           
+
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- <div class="flexFirstHalfContent">
+          <div class="customerName container mb-3">
+            <div>
+              <label for="SalesorderformcustomerName"> Customer Name </label>
+              <strong>name</strong>
+            </div>
+
+            <div class="date">
+              <label for="SalesorderformDate">Date</label>
+              <strong>Date</strong>
+            </div>
+          </div>
+
+          <div class="contactPerson">
+            <div>
+              <label for="SalesorderformContactPerson"> Customer Name </label>
+              <strong>name</strong>
+            </div>
+
+            <div class="emailId">
+              <label for="SalesorderformemailId"> E-mail-ID </label>
+              <strong>email</strong>
+            </div>
+          </div>
+
+          <div class="billingAddress container">
+            <label for="SalesorderformBillingAddress"> Billing Address </label>
+            <strong>Billing Address</strong>
+          </div>
+          <div class="deliveryAddress container">
+            <label for="SalesorderformDeliveryAddress">
+              Delivery Address
+            </label>
+            <strong>Delivery Address</strong>
+          </div>
+        </div>
+        <div class="secondHalf">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div> -->
+      </div>
+    </div>
+</div>
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
